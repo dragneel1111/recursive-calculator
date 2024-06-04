@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursive Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <h1>Recursive Calculator</h1>
+        <div class="input-container">
+            <label for="inputField">Enter value for n:</label>
+            <input type="text" id="inputField">
+        </div>
+        <div class="radio-buttons">
+            <input type="radio" id="factorialButton" name="calculationType" value="factorial" checked>
+            <label for="factorialButton">Factorial</label>
+            <input type="radio" id="fibonacciButton" name="calculationType" value="fibonacci">
+            <label for="fibonacciButton">Fibonacci</label>
+        </div>
+        <button id="calculateButton">Calculate</button>
+        <div id="resultLabel">Result: </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
