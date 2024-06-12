@@ -39,16 +39,12 @@ body {
 }
 
 #calculateButton {
-    background-color: #000080;
+    background-color: #0095ff;
     color: #fff;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-}
-
-#calculateButton:hover {
-    background-color: #000080;
 }
 
 #resultLabel {
